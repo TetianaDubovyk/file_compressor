@@ -3,11 +3,11 @@
 ## Table of Contents
 
 * [How to use it](#how-to-use-it)
-* [Input and output formats](#input-and-output-formats)
-* [About the algorithm](#about-the-algorithm)
 * [How does it work](#how-does-it-work)
   * [Compressor](#compressor)
   * [Decompressor](#decompressor)
+* [About the algorithm](#about-the-algorithm)
+* [Design of the project](#design-of-the-project)
 
 ## How to use it
 The script requires the following parameters to be launched: 
@@ -18,6 +18,7 @@ The script requires the following parameters to be launched:
  ```
  python text_file_copmressor.py decompress FILE.bin FILE.txt
 ```
+ The usage of the compressor is reasonable for compression of large text files
  
 ## How does it work
  ### Compress
@@ -42,9 +43,7 @@ The variable-length codes assigned to input characters are Prefix Codes, means t
  
 More about Huffman coding on [Wikipedia, Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding#Basic_technique)
 
- ### Design opp
+ ## Design of the project
  decided oop approach the following clases have bin created for
  each cless wofollowing responsabilities
  
- ## the usage of the compressor is reasonable for compression of large text files
-
