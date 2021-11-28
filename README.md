@@ -5,8 +5,8 @@ The usage of the compressor is reasonable for compression of large text files
 
 * [How to use it](#how-to-use-it)
 * [How does it work](#how-does-it-work)
-  * [Compressor](#compress)
-  * [Decompressor](#decompress)
+  * [Compress](#compress)
+  * [Decompress](#decompress)
 * [About the algorithm](#about-the-algorithm)
 * [Design of the project](#design-of-the-project)
 
