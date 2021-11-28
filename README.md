@@ -34,24 +34,19 @@ More about Huffman coding on [Wikipedia, Huffman coding](https://en.wikipedia.or
  ### Compress
  The user calls the script providing following parameters: 
  * compress for an action
- * *.txt file to work with 
+ * *.txt file to compress 
  * *.bin file to store compressed data in
  
- After that begins validation of given files: if file to compress is exist and name for a file with compressed data is not taken, and extentions of entered files are correct - encoding text file into bynary file which contents encoded data, some additional data and hash of a file for validation when decompressing 
+ After that begins validation of given files: if file to compress is exist and name for a file with compressed data is not taken, and extentions of entered files are correct - encoding text file into bynary file which contents encoded data, some additional data and hash of a file for validation when decompressing. If name of a file to store compressed data is taken, then user asked permission to owerride it with a new data.
  
  ### Decompress
- The user calls the script providing following parameters: 
+ The user provide following parameters: 
  * decompress for an action
- * *.bin file to decode
- * *.txt file to store decoded data in
- check hash
- if ok: decompress result is txt
-
-
-
-
-### Decompressor
+ * *.bin file to decompress
+ * *.txt file to store decompress data in
  
+ The same validation begins, only now it also checks if a given bin file are really the file that were previous compressed. Validation compares hash of this file without last 16 bytes and hash which is stored inside this last 16 bytes, if they match - decompressing begin. The result of decompressing is a text file.
+
  ### Design opp
  decided oop approach the following clases have bin created for
  each cless wofollowing responsabilities
