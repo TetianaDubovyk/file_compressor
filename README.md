@@ -14,10 +14,10 @@ The usage of the compressor is reasonable for compression of large text files
 The script requires the following parameters to be launched: 
 
  ```
- python text_file_copmressor.py compress FILE.txt FILE.bin
+ python text_file_compressor.py compress FILE.txt FILE.bin
 ```
  ```
- python text_file_copmressor.py decompress FILE.bin FILE.txt
+ python text_file_compressor.py decompress FILE.bin FILE.txt
 ```
  
 ## How does it work
