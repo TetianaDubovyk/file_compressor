@@ -12,7 +12,6 @@
 ## How to use it
 The script requires the following parameters to be launched: 
 
- to compress a file:
  ```
  python text_file_copmressor.py compress FILE.txt FILE.bin
 ```
