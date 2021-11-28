@@ -16,7 +16,6 @@ The script requires the following parameters to be launched:
  ```
  python text_file_copmressor.py compress FILE.txt FILE.bin
 ```
-to decompress a file:
  ```
  python text_file_copmressor.py decompress FILE.bin FILE.txt
 ```
