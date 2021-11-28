@@ -1,4 +1,5 @@
 # Python text files compressor based on Huffman's compression algorithm
+The usage of the compressor is reasonable for compression of large text files
 #### Video Demo:  <URL HERE>
 ## Table of Contents
 
@@ -18,7 +19,6 @@ The script requires the following parameters to be launched:
  ```
  python text_file_copmressor.py decompress FILE.bin FILE.txt
 ```
- The usage of the compressor is reasonable for compression of large text files
  
 ## How does it work
  ### Compress
