@@ -46,12 +46,12 @@ More about Huffman coding on [Wikipedia, Huffman coding](https://en.wikipedia.or
  ## Design of the project
  I've decided to use object-oriented paradigm when designing the code. After some analysis I've figured out the following classes:
  
- Class Validator - Encapsulates the logic to check whether user input into command line is correct
+ class Validator - Encapsulates the logic to check whether user input into command line is correct
  
- Class Compressor - Encapsulates the logic of compression or decompression of given file using class File_processor and class Huffman_coder
+ class Compressor - Encapsulates the logic of compression or decompression of given file using class File_processor and class Huffman_coder
  
- Class File_processor - Encapsulates the work with the binary files containing the compressed data
+ class File_processor - Encapsulates the work with the binary files containing the compressed data
  
- Class Huffman_coder - Encapsulates the Huffman coding algorithm to compress and decompress data
+ class Huffman_coder - Encapsulates the Huffman coding algorithm to compress and decompress data
  
- Class Node - Represents the Huffman tree to be used in the Huffman_coder
+ class Node - Represents the Huffman tree to be used in the Huffman_coder
