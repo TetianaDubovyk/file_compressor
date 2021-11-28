@@ -9,7 +9,9 @@
 
 ## How to use it
 The script requires the following parameters to be launched: 
-'python text_file_copmressor.py compress text.txt text.bin'
+```
+ python text_file_copmressor.py compress text.txt text.bin
+```
 'compress' 
 
 ## How does it work
