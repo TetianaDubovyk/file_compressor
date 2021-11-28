@@ -21,9 +21,9 @@ to decompress a file:
  python text_file_copmressor.py decompress FILE.bin FILE.txt
 ```
 ## Input and output formats
-For compression this script takes input ONLY in format of .txt file and outputs compressed data in a simple format of .bin file
+For compression this script takes input only in format of .txt file and outputs compressed data in a simple format of .bin file
  
-For decompression it takes input ONLY in format of .bin file and outputs compressed data in a format of .txt file
+For decompression it takes input in format of .bin file and outputs compressed data in a format of .txt file
 
 ## About the algorithm
 > Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters. The most frequent character gets the smallest code and the least frequent character gets the largest code.
