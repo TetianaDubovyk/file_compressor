@@ -21,8 +21,7 @@ to decompress a file:
  python text_file_copmressor.py decompress FILE.bin FILE.txt
 ```
 ## Input and output formats
-For compression this script takes input only in format of .txt file and outputs compressed data in a simple format of .bin file
- 
+For compression this script takes input only in format of .txt file and outputs compressed data in a simple format of .bin file 
 For decompression it takes input in format of .bin file and outputs compressed data in a format of .txt file
 
 ## About the algorithm
@@ -32,7 +31,30 @@ The variable-length codes assigned to input characters are Prefix Codes, means t
 More about Huffman coding on [Wikipedia, Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding#Basic_technique)
  
 ## How does it work
-### Compressor
+ ### Compress
+ The user calls the script providing following parameters: 
+ * compress for an action
+ * *.txt file to work with 
+ * *.bin file to store compressed data in
+ 
+ After that begins validation of given files: if file to compress is exist and name for a file with compressed data is not taken, and extentions of entered files are correct - encoding text file into bynary file which contents encoded data, some additional data and hash of a file for validation when decompressing 
+ 
+ ### Decompress
+ The user calls the script providing following parameters: 
+ * decompress for an action
+ * *.bin file to decode
+ * *.txt file to store decoded data in
+ check hash
+ if ok: decompress result is txt
+
+
+
 
 ### Decompressor
+ 
+ ### Design opp
+ decided oop approach the following clases have bin created for
+ each cless wofollowing responsabilities
+ 
+ ## the usage of the compressor is reasonable for compression of large text files
 
