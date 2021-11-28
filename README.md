@@ -9,10 +9,15 @@
 
 ## How to use it
 The script requires the following parameters to be launched: 
-```
+
+ to compress a file:
+ ```
  python text_file_copmressor.py compress text.txt text.bin
 ```
-'compress' 
+to decompress a file:
+ ```
+ python text_file_copmressor.py decompress text.bin text.txt
+```
 
 ## How does it work
 ### Compressor
