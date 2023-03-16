@@ -1,7 +1,6 @@
 # Python text files compressor based on Huffman's compression algorithm
 The usage of the compressor is reasonable for compression of large text files
-#### Video Demo:  <URL HERE>
-## Table of Contents
+## Table of Contents 
 
 * [How to use it](#how-to-use-it)
 * [How does it work](#how-does-it-work)
